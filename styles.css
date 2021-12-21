@@ -96,11 +96,11 @@ nav .tabs  { list-style-type: none;
 nav .tabs .tab {display: block; text-transform: capitalize; }
 
 nav .tabs .tab a[data-switcher] {
-    display: block; padding: 15px 30px; align-items: center;
+    display: block; padding: 5px 15px; align-items: center;
     text-decoration: none; color: #fff; background-color: rgb(16, 2, 102);
     cursor: pointer;
 }
 nav .tabs .tab:hover a[data-switcher] {background-color: rgb(151, 142, 177);
         font-weight: 700; }
         
-nav .tabs .tab.is-active a[data-switcher] { border-radius: 10px;}
+nav .tabs .tab.is-active a[data-switcher] { border-radius: 5px;}
