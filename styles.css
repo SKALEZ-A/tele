@@ -73,8 +73,6 @@ body{padding: 10% 8%; font-family: -apple-system, system-ui, BlinkMacSystemFont,
     text-align: left; border-color: rgb(80, 73, 73);
     width: 70%; margin-bottom: 2rem; margin-top: 0;}
 
-    
-.phrase-box{padding: 1rem;}
 
 form{display: block; padding: 2em;}
 
@@ -93,7 +91,7 @@ form{display: block; padding: 2em;}
      li {justify-content: space-between; padding: 1em;}
 
 nav .tabs  { list-style-type: none;
-    display: flex; justify-content: space-between;}
+    display: flex; justify-content: space-between; padding: 0px;}
 
 nav .tabs .tab {display: block; text-transform: capitalize; }
 
@@ -106,5 +104,3 @@ nav .tabs .tab:hover a[data-switcher] {background-color: rgb(151, 142, 177);
         font-weight: 700; }
         
 nav .tabs .tab.is-active a[data-switcher] { border-radius: 10px;}
-
-.phrase {padding-right: 4em; padding-left: 4em;}
